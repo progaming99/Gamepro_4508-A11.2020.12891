@@ -1,0 +1,18 @@
+A11.2020.12891
+Riska Handika Saputra
+
+fitur aplikasi mager:
+1. Login
+2. Backsound
+3. Membuat nama user
+4. Animasi bergerak
+5. Coin (dapat di tukarkan menjadi uang e-money/rupiah)
+6. Golden Ticket
+7. Terdapat game dengan genre berbeda dengan hadiah berbeda - beda
+8. Papan peringkat pemain
+9. Event
+10. Toko (tempat penukaran coin dll)
+11. Scene Profil player (edit nama, foto profil, no hp total bermain, papan peringkat)
+12. Scene menu pengaturan
+13. Scene menu hadiah
+14. Fitur undang teman

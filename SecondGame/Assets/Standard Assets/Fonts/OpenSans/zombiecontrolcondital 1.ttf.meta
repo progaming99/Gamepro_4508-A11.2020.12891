@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 83feb917789d0b14eacd608d01e9c57e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Zombie Control Condensed Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d9e7f43c4a49a5c498c4b50db42e5abf, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
