@@ -18,7 +18,7 @@ public class Score : MonoBehaviour
     void Start()
     {
         ScoreNumb = 0;
-        MyScoreText.text = "Score : " + ScoreNumb;
+        MyScoreText.text = "" + ScoreNumb;
     }
     
     private void OnTriggerEnter2D(Collider2D Coin)
@@ -26,8 +26,18 @@ public class Score : MonoBehaviour
         if(Coin.tag == "MyCoin")
         {
             ScoreNumb += 1;
+
+            GUIManager.saveLevel (ScoreNumb);
+            if (ScoreNumb >=2)
+            GUIManager.saveLevel(1);
+            if(ScoreNumb >=4)
+            GUIManager.saveLevel(2);
+
             Destroy(Coin.gameObject);
-            MyScoreText.text = "Score : " + ScoreNumb;
+            if (ScoreNumb > PlayerPrefs.GetInt("highscore"))
+            PlayerPrefs.SetInt("highscore", ScoreNumb);
+            MyScoreText.text = " " + ScoreNumb;
         }
     }
+
 }

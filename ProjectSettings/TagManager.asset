@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MyCoin
   - turn
+  - score
   layers:
   - Default
   - TransparentFX
